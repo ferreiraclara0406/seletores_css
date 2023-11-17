@@ -1,0 +1,39 @@
+/* selector global= Seleciona todos os elementos da pagina ou de determinado lugar*/
+*{
+    margin: 0;
+    padding: 0%;
+   box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: red;
+}
+.paragrafo{
+    border: 1px solid #0ff;
+    color: #00f;
+    margin-top: 1rem;
+}
+
+#titulo{
+    color: #0f8;
+    margin-bottom:1rem ;
+}
+
+input[type="password" ]{
+    font-size: 3rem;
+}
+
+.login-form input{
+    font-size: 2rem;
+    color: #f00;
+}
+
+.login-form > input{
+    color: #0f8;
+    width: 10rem;
+}
+
+.cadatro-form input:nth-of-type(2){
+    border: 2px solid #00f;
+}
